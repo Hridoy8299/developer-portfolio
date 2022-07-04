@@ -14,6 +14,7 @@ span {
 .flexibale-container {
     display: flex;
     margin-bottom: 100px;
+
 }
 
 .half-width {
@@ -49,4 +50,33 @@ span {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.shadow {
+
+    box-shadow: 5px 4px 50px gray;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 44%;
+    padding-left: 10px;
+    border-radius: 10px;
+
+}
+
+.experience-area {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#left-unit {
+    border-left: 10px solid yellow;
+}
+
+#right-unit {
+    border-left: 10px solid blue;
+}
+
+footer {
+    text-align: center;
 }
